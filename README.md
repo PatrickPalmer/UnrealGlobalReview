@@ -8,7 +8,7 @@ This is the Unreal Global Review Project Placeholder. The intent to release this
 
 ## Screenshots
 
-The browser UI is written in React using the [https://cloudscape.design/](Cloudscape designs) widget set.
+The browser UI is written in React using the [Cloudscape Designs](https://cloudscape.design) widget set.
 
 ### Creating a session.
 
