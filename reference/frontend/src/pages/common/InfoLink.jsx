@@ -1,0 +1,29 @@
+// Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// SPDX-License-Identifier: MIT-0
+import React from 'react';
+import Link from '@cloudscape-design/components/link';
+
+const InfoLink = props => {
+  return (
+    <Link variant="info" {...props}>
+      Info
+    </Link>
+  )
+};
+
+export default InfoLink;
+
+
+// import React from 'react';
+// import Link, { LinkProps } from '@cloudscape-design/components/link';
+
+// interface InfoLinkProps {
+//   id?: string;
+//   ariaLabel?: string;
+//   onFollow: LinkProps['onFollow'];
+// }
+// export const InfoLink = (props: InfoLinkProps) => (
+//   <Link variant="info" {...props}>
+//     Info
+//   </Link>
+// );

@@ -1,0 +1,30 @@
+{
+  "#": "Global Review Context Parameters",
+
+  "# config": "Default configuration, use cdk --context config=XYZ to change",
+  "config": "prod",
+
+  "# prod": "Production Parameters",
+  "prod": {
+
+    "# postfix": "Unique Postfix, only letters (required)",
+    "postfix": "",
+
+    "# account": "Account id, set to null if using AWS credentials",
+    "account_id": null,
+
+    "# region": "Deployment Region, set to null if using AWS CLI settings",
+    "region": null,
+
+    "# edge_region": ["Region for the Global Review Edge to be deployed.",
+                      "Must be a region that Lambda @ Edge can be deployed in.",
+                      "Note: This is AWS Partition specific. Keep it as us-east-1 for the 'aws' partition."],
+    "edge_region": "us-east-1",
+
+    "# require_mfa": "Whether to require Cognito User Pool users to requre Multi-Factor Authentication",
+    "require_mfa": false,
+
+    "# run_cdk_nag": "run CDK nag best practices check",
+    "run_cdk_nag": true
+  }
+}
